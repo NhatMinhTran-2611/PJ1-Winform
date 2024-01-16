@@ -69,7 +69,7 @@ namespace Form1.cs
 
         private void btTatChuongTrinh_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit() ;
         }
 
     }
