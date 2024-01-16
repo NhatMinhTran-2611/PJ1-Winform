@@ -9,10 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using Form1.cs;
-
+namespace Form1.cs
+{
     public partial class FHocSinh : Form
     {
         SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
+        HocSinhDao hsDao = new HocSinhDao();
         public FHocSinh()
         {
             InitializeComponent();
@@ -21,8 +23,8 @@ using Form1.cs;
         {
             HocSinh hs = new HocSinh(textBox1.Text, textBox2.Text, textBox3.Text, dateTimePicker1.Value.ToString("yyyy-MM-dd"));
             HocSinhDao hsDao = new HocSinhDao();
-            hsDao.load(hs);
-            ReloadF1();
+            dataGridView1.DataSource = hsDao.Load();
+        
         }
         private void FHocSinh_Load(object sender, EventArgs e)
         {
