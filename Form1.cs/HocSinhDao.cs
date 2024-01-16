@@ -78,21 +78,21 @@ namespace Form1.cs
                 conn.Close();
             }
         }
-        public void load(HocSinh hs)
+        public DataTable load()
         {
+            DataTable dtSinhVien = new DataTable();
             try
             {
                 conn.Open();
                 string sqlStr = string.Format("SELECT *FROM HocSinh");
-
                 SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
-                DataTable dtSinhVien = new DataTable();
                 adapter.Fill(dtSinhVien);
-                Form1.dataGridView1.DataSource = dtSinhVien;
+                return dtSinhVien;
             }
             catch (Exception exc)
             {
                 MessageBox.Show(exc.Message);
+                return null;
             }
             finally
             {
