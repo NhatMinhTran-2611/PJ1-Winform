@@ -1,0 +1,14 @@
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\bin\Debug\Form1.cs.exe.config
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\bin\Debug\Form1.cs.exe
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\bin\Debug\Form1.cs.pdb
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\bin\Debug\System.Data.SqlClient.dll
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\bin\Debug\System.Data.SqlClient.xml
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.csproj.AssemblyReference.cache
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.FHocSinh.resources
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.Properties.Resources.resources
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.csproj.GenerateResource.cache
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.csproj.CoreCompileInputs.cache
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.csproj.CopyComplete
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.exe
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.pdb
+C:\Users\FPTSHOP\source\repos\Form1.cs\Form1.cs\obj\Debug\Form1.cs.FGiangVien.resources
