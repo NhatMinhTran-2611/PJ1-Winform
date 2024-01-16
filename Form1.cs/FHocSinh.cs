@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using Form1.cs;
-namespace Form1.cs
-{
+
     public partial class FHocSinh : Form
     {
         SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
